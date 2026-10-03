@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+#startButton {
+    padding: 15px 40px;
+
+    font-size: 20px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
